@@ -45,9 +45,6 @@ h3{
     font-size: 2vw;
     margin: 0 auto 0 auto;
     padding-bottom: 30px;
-    /*background: -webkit-linear-gradient(#C22828, #AB0A0A);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;*/
     color: #FFFA9E;
     text-shadow:
       0 0 7px #fff,
@@ -303,18 +300,24 @@ hr{
     flex-wrap: wrap;
     margin:auto;
 }
+
 .bottom-div{
     background-image: -webkit-linear-gradient(top, #800E29 0%, #77050C);
+    padding-top: 20vh;
 }
 .link-bottom{
     color:#800E7E;
     text-decoration: none;
 }
 @media screen and (orientation:portrait){
-    .location-div{
-        display: none;
+    .frame-mappa{
+        width: 70vw;
+        height: 30vh;
     }
-    .mappa{
-        display: none;
+    .descript-location{
+        font-size: 4vw;
+    }
+    h4{
+        font-size: 6vw;
     }
 }
