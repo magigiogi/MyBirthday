@@ -194,7 +194,7 @@ hr{
 .invito{
     color: #FFFA9E;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.8vw;
+    font-size: 2vw;
     margin:0 35vw 0 35vw;
     text-align: center;
 }
@@ -238,13 +238,13 @@ hr{
 .descript-regali{
     color: #FFFA9E;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.8vw;
+    font-size: 2vw;
     margin:0 20vw 0 20vw;
 }
 .lista-regali{
     color: #FF269D;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     margin:0 20vw 0 20vw;
 }
 .slitta{
@@ -291,7 +291,7 @@ hr{
 .descript-location{
     color: #FFFA9E;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.5vw;
+    font-size: 2vw;
     margin:0 5vw 0 5vw;
     padding-bottom: 30px;
 }
