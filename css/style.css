@@ -42,7 +42,7 @@ h2{
 }
 h3{
     font-family: 'Shrikhand', cursive;
-    font-size: 2vw;
+    font-size: 3vw;
     margin: 0 auto 0 auto;
     padding-bottom: 30px;
     color: #FFFA9E;
@@ -190,6 +190,9 @@ hr{
     hr{
         border-width: 5px;
         width: 6%;
+    }
+    h3{
+        font-size: 4vw;
     }
 }
 .presentation-div{
