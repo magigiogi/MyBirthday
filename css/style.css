@@ -211,6 +211,9 @@ hr{
     right: 38vw;
     transform: rotate(35deg);
 }
+.link-regalo{
+    color:#FFFA9E;
+}
 @media screen and (orientation:portrait){
     h2{
         font-size: 9vw;
@@ -322,9 +325,9 @@ hr{
         height: 30vh;
     }
     .descript-location{
-        font-size: 4vw;
+        font-size: 6vw;
     }
     h4{
-        font-size: 6vw;
+        font-size: 8vw;
     }
 }
