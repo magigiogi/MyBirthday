@@ -321,7 +321,7 @@ hr{
 }
 .copyright{
     color: #FFFA9E;
-    font-size: 2vw;
+    font-size: 1vw;
 }
 @media screen and (orientation:portrait){
     .frame-mappa{
@@ -333,5 +333,8 @@ hr{
     }
     h4{
         font-size: 8vw;
+    }
+    .copyright{
+        font-size: 2vw;
     }
 }
