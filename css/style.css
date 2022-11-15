@@ -187,6 +187,10 @@ hr{
         top:65vh;
         right: 10vw;
     }
+    hr{
+        border-width: 5px;
+        width: 6%;
+    }
 }
 .presentation-div{
     background-image: -webkit-linear-gradient(top, #711597 0%, #800E7E);
