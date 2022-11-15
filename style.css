@@ -1,0 +1,323 @@
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-family: 'Shrikhand', cursive;
+    font-size: 13vw;
+    margin: 0 auto 0 auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /*background: -webkit-linear-gradient(#C22828, #AB0A0A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+    color: #FFFA9E;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px#DC2EE6,
+      0 0 21px #DC2EE6,
+      0 0 42px #FFFF00,
+      0 0 82px #FFFF00,
+      0 0 92px #FFFF00,
+      0 0 102px #F24F0A,
+      0 0 151px #AB0A0A;
+}
+h2{
+    color: #DC2EE6;
+    font-family: 'Raleway', sans-serif;
+    font-size:4vw;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top:5vh;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px#FFFF00,
+      0 0 21px #DC2EE6,
+      0 0 42px #FFFF00,
+      0 0 82px #FFFF00,
+      0 0 92px #FFFF00,
+      0 0 102px #F24F0A,
+      0 0 151px #AB0A0A;
+}
+h3{
+    font-family: 'Shrikhand', cursive;
+    font-size: 2vw;
+    margin: 0 auto 0 auto;
+    padding-bottom: 30px;
+    color: #FFFA9E;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px#DC2EE6,
+      0 0 21px #DC2EE6,
+      0 0 42px #FFFF00,
+      0 0 82px #FFFF00,
+      0 0 92px #FFFF00,
+      0 0 102px #F24F0A,
+      0 0 151px #AB0A0A;
+}
+h4{
+    font-family: 'Shrikhand', cursive;
+    font-size: 2.5vw;
+    margin: 0 auto 0 auto;
+    padding-bottom: 10px;
+    color: #DC2EE6;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px#DC2EE6,
+      0 0 21px #DC2EE6,
+      0 0 42px #FFFF00,
+      0 0 82px #FFFF00,
+      0 0 92px #FFFF00,
+      0 0 102px #F24F0A,
+      0 0 151px #AB0A0A;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #FFFA9E;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px#DC2EE6,
+    0 0 21px #DC2EE6,
+    0 0 42px #FFFF00,
+    0 0 82px #FFFF00,
+    0 0 92px #FFFF00,
+    0 0 102px #F24F0A,
+    0 0 151px #AB0A0A;
+    border-width: 5px;
+    width: 2%;
+}
+.top-div{
+    background-image: -webkit-linear-gradient(top, #381597 0%, #711597);
+    margin: 0;
+    position: relative;
+    padding-top: 10vh;
+}
+.fireworks{
+    position: absolute;
+    bottom:0.5vh;
+    right: 2vw;
+}
+.fireworks-popper{
+    position: absolute;
+    top:10vh;
+    right: 8vw;
+    transform: rotate(-85deg);
+}
+.glass{
+    position: absolute;
+    top:28vh;
+    left:4vw;
+    transform: rotate(-10deg);
+}
+.stella-1{
+    position: absolute;
+    top:15vh;
+    left:4vw;
+}
+.stella-2{
+    position: absolute;
+    top:20vh;
+    left:15vw;
+}
+.stella-3{
+    position: absolute;
+    top:6vh;
+    left:25vw;
+}
+.stella-4{
+    position: absolute;
+    top:15vh;
+    left:35vw;
+}
+.stella-6{
+    position: absolute;
+    top:9vh;
+    right:35vw;
+}
+.stella-5{
+    position: absolute;
+    top:5vh;
+    right:25vw;
+}
+.stella-7{
+    position: absolute;
+    top:15vh;
+    right:5vw;
+}
+.stella-8{
+    position: absolute;
+    top:50vh;
+    left:5vw;
+}
+.stella-9{
+    position: absolute;
+    top:65vh;
+    left:9vw;
+}
+.stella-10{
+    position: absolute;
+    top:65vh;
+    right:3vw;
+}
+.stella-11{
+    position: absolute;
+    top:3vh;
+    left:10vw;
+}
+.stella-12{
+    position: absolute;
+    top:8vh;
+    left:40vw;
+}
+@media screen and (orientation:portrait){
+    .fireworks-popper{
+        top:5vh;
+    }
+    .fireworks{
+        right: 7vw;
+    }
+    .glass{
+        top:15vh;
+        left:5vw;
+        transform: rotate(-10deg);
+    }
+    .stella-10{
+        top:65vh;
+        right: 10vw;
+    }
+}
+.presentation-div{
+    background-image: -webkit-linear-gradient(top, #711597 0%, #800E7E);
+}
+.invito{
+    color: #FFFA9E;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5vw;
+    margin:0 30vw 0 30vw;
+    text-align: center;
+}
+.agrifoglio{
+    position: fixed;
+    top:68vh;
+    right: 38vw;
+    transform: rotate(35deg);
+}
+@media screen and (orientation:portrait){
+    h2{
+        font-size: 9vw;
+        padding-top: 10vh;
+    }
+    .invito{
+        font-size: 5vw;
+        margin:0 20vw 0 20vw;
+    }
+    .agrifoglio{
+        position: relative;
+        top:12vh;
+        left:-4vw;
+        width: 20%;
+    }
+    .ghirlanda{
+        width: 50%;
+    }
+    .vischio{
+        width: 20%;
+    }
+}
+.gifts-div{
+    background-image: -webkit-linear-gradient(top, #800E7E 0%, #800E42);
+}
+.agrifoglio-2{
+    position: absolute;
+    top:207vh;
+    left: 33vw;
+    transform: rotate(-28deg);
+}
+.descript-regali{
+    color: #FFFA9E;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+    margin:0 20vw 0 20vw;
+}
+.lista-regali{
+    color: #FF269D;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8vw;
+    margin:0 20vw 0 20vw;
+}
+.slitta{
+    position: relative;
+    right: -40vw;
+}
+.punto-lista{
+    text-align: left;
+}
+@media screen and (orientation:portrait){
+   .agrifoglio-2{
+        position:relative;
+        top:12vh;
+        left: -30vw;
+        width: 20%;
+   }
+   .descript-regali{
+    font-size: 4vw;
+   }
+   .lista-regali{
+    font-size: 4vw;
+    margin: 0 10vw 0 10vw;
+   }
+   .slitta{
+    top:20vh;
+    right: -35vw;
+    width: 20%;
+   }
+   .regalo{
+    width: 10%;
+   }
+}
+.location-div{
+    background-image: -webkit-linear-gradient(top, #800E42 0%, #800E29);
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25vh;
+    align-items: center;
+}
+.info-location-menu{
+    flex-direction: column;
+    margin:auto;
+}
+.descript-location{
+    color: #FFFA9E;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+    margin:0 5vw 0 5vw;
+    padding-bottom: 30px;
+}
+.mappa{
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+}
+
+.bottom-div{
+    background-image: -webkit-linear-gradient(top, #800E29 0%, #77050C);
+    padding-top: 20vh;
+}
+.link-bottom{
+    color:#800E7E;
+    text-decoration: none;
+}
+@media screen and (orientation:portrait){
+    .frame-mappa{
+        width: 70vw;
+        height: 30vh;
+    }
+    .descript-location{
+        font-size: 4vw;
+    }
+    h4{
+        font-size: 6vw;
+    }
+}
