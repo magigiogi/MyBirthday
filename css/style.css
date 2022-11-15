@@ -219,11 +219,11 @@ hr{
     .agrifoglio{
         position: relative;
         top:12vh;
-        right:-5vw;
+        left:-4vw;
         width: 20%;
     }
     .ghirlanda{
-        margin-left:10vw;
+        margin-left:20vw;
         width: 50%;
     }
     .vischio{
