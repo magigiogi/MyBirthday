@@ -192,7 +192,7 @@ hr{
         width: 6%;
     }
     h3{
-        font-size: 4vw;
+        font-size: 8vw;
     }
 }
 .presentation-div{
@@ -318,6 +318,10 @@ hr{
 .link-bottom{
     color:#800E7E;
     text-decoration: none;
+}
+.copyright{
+    color: #FFFA9E;
+    font-size: 3vw;
 }
 @media screen and (orientation:portrait){
     .frame-mappa{
